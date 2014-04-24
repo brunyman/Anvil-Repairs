@@ -1,0 +1,40 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                     Anvil Repairs                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+# All Colour codes Support
+
+# If the Anvil is in use
+anvil-in-use: "&4That anvil is in use!"
+
+# If the regular Anvil is disabled (if it is LEFT_CLICK)
+regular-anvil-disable: "&4Anvil regular use has been disabled!"
+
+# If the Item is at full durability
+full-durability: "&4Item already at full durability!"
+
+# Not enough funds to Repair the Item
+not-enough-funds: "&4You can't afford to repair this item!"
+
+# When the Item is Repairing
+repairing-item: "&6Repairing item."
+
+# When the Item is Repaired
+item-repaired: "&aItem has been repaired!"
+
+# Throws an error when something goes wrong
+error: "&4Something went wrong!"
+
+# This ones are being sent to the console
+log-invalid-repair-cost: "&c[ERROR] &6Repair cost in config is not valid!"
+log-invalid-material: "&c[ERROR] &6Invalid material in config: {material}"
+log-item-not-repairable: "&c[ERROR] &6Item not repairable: {item}"
+log-repairing-item: "&a[SUCCESS] &6&dRepairing item: {item}"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 End Of Language File                 | #
+# +------------------------------------------------------+ #
+############################################################

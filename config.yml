@@ -1,0 +1,111 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                     Anvil Repairs                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Enable Debug Info in Console
+debug-mode: false
+
+# Enable beautiful Colours in your Console
+color.logs: true
+
+# Worlds in which AnvilRepairs are enabled!
+# This is to disable them in worlds you don't want them in
+enabled-worlds:
+- world
+- world_nether
+- world_the_end
+
+# Users can exploit per world Inventories by changing worlds while the item is being Repaired
+# This option causes the item to disappear into thin air if the user logs off
+# or changes World when the Item isn't finished repairing.
+# I will soon remove this and just keep it as true
+stop-multi-world-exploiters: true
+
+# Economy Support
+# Want to use Money instead? Set this to true
+# Requires Vault and any Economy supported by Vaulty (i.e) Essentials/iConomy
+use-economy: false
+
+# Cost to repair the Item
+# This is in Exp levels (or Currency is it is enabled)
+# Set to '0' to disable
+repair-cost: 10
+
+# This will show the Item being Repaired (Setting this long will make the Repair of the Item take long)
+seconds-to-showcase: 3
+
+# Enable/Disable the Repairing sound
+play-repair-sounds: true
+
+# Enable/Disable the warp sounds.
+play-warp-sounds: true
+
+# EXPERIMENTAL! Visual effect to play while repairing. Comment out or put 'none' to disable.
+# I mite remove this completely in the next update it will depend
+repair-effect: POTION_BREAK
+
+# EXPERIMENTAL! Modifier integer data for visual effect. For some effects this can change the colour.
+# I mite remove this completely in the next update it will depend
+repair-effect-modifier: 0
+
+# Action to trigger the Repair function
+# Options are (LEFT_CLICK) or (RIGHT_CLICK)
+# RIGHT_CLICK will automatically disable normal anvil functionality so default is LEFT_CLICK
+# Keep the names caps all time
+repair-action: LEFT_CLICK
+
+# Disable the anvil's normal functionality for ALL items (disables renaming)
+# This is for LEFT_CLICK
+disable-normal-anvil: false
+
+# List of Items that can be Repaired
+# All these are the Items removed the ones you don't want
+repairable-items:
+- WOOD_AXE
+- WOOD_HOE
+- WOOD_PICKAXE
+- WOOD_SPADE
+- WOOD_SWORD
+- STONE_AXE
+- STONE_HOE
+- STONE_PICKAXE
+- STONE_SPADE
+- STONE_SWORD
+- IRON_AXE
+- IRON_HOE
+- IRON_PICKAXE
+- IRON_SPADE
+- IRON_SWORD
+- DIAMOND_AXE
+- DIAMOND_HOE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- DIAMOND_SWORD
+- LEATHER_BOOTS
+- LEATHER_CHESTPLATE
+- LEATHER_HELMET
+- LEATHER_LEGGINGS
+- CHAINMAIL_BOOTS
+- CHAINMAIL_CHESTPLATE
+- CHAINMAIL_HELMET
+- CHAINMAIL_LEGGINGS
+- GOLD_BOOTS
+- GOLD_CHESTPLATE
+- GOLD_HELMET
+- GOLD_LEGGINGS
+- DIAMOND_BOOTS
+- DIAMOND_CHESTPLATE
+- DIAMOND_HELMET
+- DIAMOND_LEGGINGS
+- BOW
+- FISHING_ROD
+- FLINT_AND_STEEL
+- SHEARS
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 End Of Configuration                 | #
+# +------------------------------------------------------+ #
+############################################################

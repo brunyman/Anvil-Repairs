@@ -1,0 +1,23 @@
+name: AnvilRepairs
+author: Badboystee
+version: 1.4.3
+
+website: http://dev.bukkit.org/bukkit-plugins/anvilrepairs/
+description: Shutdown Notice allowing your Users to know when your Restarting the Server (Lightweight Plugin)
+
+main: com.ste.AnvilRepairs.AnvilRepairs
+
+permissions:
+    anvilrepairs.*:
+       description: Use all Shutdown Notice Permissions
+       children:
+           anvilrepairs.use: true
+           anvilrepairs.bypass.cost: true
+       default: op
+    anvilrepairs.use:
+       description: Allows player to repair an item on an anvil.
+       default: op
+    anvilrepairs.bypass.cost:
+       description: Do not charge the player for repairing.
+       default: op
+         
